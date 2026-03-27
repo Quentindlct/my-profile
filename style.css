@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(230, 230, 230); 
+    color: rgb(50, 50, 50); 
+    font-family: Helvetica; 
+    font-weight: 400;
+    font-size: 14px;
+}
+a {
+	color:#B02507;
+    transition:color 0.3s ease;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+
+p{
+    font-family: Lora;
+}
+.image-cercle{
+    width: 120px; 
+    height: auto; 
+    border-radius:50%;
+}
+
+.container{
+    width: 700px;
+    margin: 40px auto;
+}
+.card-white{
+    background-color: white; 
+    padding: 30px;
+    margin: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    text-align: center;
+}
+.btn-blue{
+    color: white;
+    background-color: #2A62A1;
+    padding: 8px 10px; 
+    border-radius: 4px;
+}
+.list-inLine{
+    list-style: none;
+}
+.list-inline li{
+    padding-right: 20px; 
+    display: inline;
+}
